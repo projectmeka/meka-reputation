@@ -1,16 +1,20 @@
-# substrate-module-template
-
-This is a template for a Substrate runtime module which lives as its own crate so it can be imported into multiple other runtimes. It is based on the ["template" module](https://github.com/paritytech/substrate/blob/v1.0/node-template/runtime/src/template.rs) which is included with the [Substrate node template](https://github.com/paritytech/substrate/tree/v1.0/node-template).
-
-Check out the [HOWTO](HOWTO.md) to learn how to use this for your own runtime module.
-
-This README should act as a general template for distributing your module to others.
+# meka-reputation
 
 ## Purpose
 
-This module acts as a template for building other runtime modules.
+This is a srml that used to calcuate user's `cross-chain reputation` based on the `cross-chain identity`([meka identity](https://github.com/projectmeka/meka-identity) and [meka passport](https://github.com/projectmeka/meka-passport))
 
-It currently allows a user to put a `u32` value into storage, which triggers a runtime event.
+Through bridge or Oracles, the blockchain can get user's cross-chain history transactions. Accorting to the rules of
+
+This module is inclued in the [make-node](https://github.com/projectmeka/meka-node)
+
+## Structure
+
+### api(module)
+
+### storage
+
+### events
 
 ## Dependencies
 

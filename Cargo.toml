@@ -1,7 +1,7 @@
 [package]
-name = "substrate-module-template"
+name = "Meka Reputation "
 version = "0.1.0"
-authors = ["Shawn Tabrizi <shawntabrizi@gmail.com>"]
+authors = ["Meka Team<dev@bitportal.io>"]
 edition = "2018"
 
 [features]
@@ -21,25 +21,25 @@ version = '3.5'
 default_features = false
 git = 'https://github.com/paritytech/substrate.git'
 package = 'srml-support'
-branch = 'v1.0'
+rev = 'cc1d67e973fd02c0c997b164ba516cf041bf21f1'
 
 [dependencies.system]
 default_features = false
 git = 'https://github.com/paritytech/substrate.git'
 package = 'srml-system'
-branch = 'v1.0'
+rev = 'cc1d67e973fd02c0c997b164ba516cf041bf21f1'
 
 [dev-dependencies.primitives]
 git = 'https://github.com/paritytech/substrate.git'
 package = 'substrate-primitives'
-branch = 'v1.0'
+rev = 'cc1d67e973fd02c0c997b164ba516cf041bf21f1'
 
 [dev-dependencies.runtime-primitives]
 git = 'https://github.com/paritytech/substrate.git'
 package = 'sr-primitives'
-branch = 'v1.0'
+rev = 'cc1d67e973fd02c0c997b164ba516cf041bf21f1'
 
 [dev-dependencies.runtime-io]
 git = 'https://github.com/paritytech/substrate.git'
 package = 'sr-io'
-branch = 'v1.0'
+rev = 'cc1d67e973fd02c0c997b164ba516cf041bf21f1'
